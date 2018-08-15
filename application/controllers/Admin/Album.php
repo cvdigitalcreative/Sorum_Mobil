@@ -38,8 +38,8 @@ class Album extends CI_Controller{
 	                        $config['create_thumb']= FALSE;
 	                        $config['maintain_ratio']= FALSE;
 	                        $config['quality']= '60%';
-	                        $config['width']= 500;
-	                        $config['height']= 400;
+	                        $config['width']= 820;
+	                        $config['height']= 481;
 	                        $config['new_image']= './assets/admin/images/'.$gbr['file_name'];
 	                        $this->load->library('image_lib', $config);
 	                        $this->image_lib->resize();
@@ -84,8 +84,8 @@ class Album extends CI_Controller{
 	                        $config['create_thumb']= FALSE;
 	                        $config['maintain_ratio']= FALSE;
 	                        $config['quality']= '60%';
-	                        $config['width']= 500;
-	                        $config['height']= 400;
+	                        $config['width']= 820;
+	                        $config['height']= 481;
 	                        $config['new_image']= './assets/images/'.$gbr['file_name'];
 	                        $this->load->library('image_lib', $config);
 	                        $this->image_lib->resize();

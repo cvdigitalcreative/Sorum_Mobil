@@ -90,8 +90,8 @@
                 </select>
               </div>
 
-              <!-- <div class="form-group">
-                <label>Album</label>
+              <div class="form-group">
+                <label>Image for detail</label>
                 <select class="form-control" name="xalbum" style="width: 100%;">
                   <option value="">-Pilih-</option>
                     <?php
@@ -105,7 +105,7 @@
                             <option value="<?php echo $album_id;?>"><?php echo $album_nama;?></option>
                     <?php endforeach;?>
                 </select>
-              </div> -->
+              </div>
 			  
 			        <div class="form-group">
                 <label>Gambar</label>

@@ -76,9 +76,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?php echo base_url().'Admin/Album'?>"><i class="fa fa-picture-o"></i> Album</a></li>
-            <li><a href="<?php echo base_url().'Admin/Galeri'?>"><i class="fa fa-picture-o"></i> Galeri</a></li>  
-                        <li><a href="<?php echo base_url().'Admin/Kategori'?>"><i class="fa fa-list"></i> Kategori Tulisan</a></li>
+            <li><a href="<?php echo base_url().'Admin/Album'?>"><i class="fa fa-picture-o"></i> Image For detail</a></li>
+            <!-- <li><a href="<?php echo base_url().'Admin/Galeri'?>"><i class="fa fa-picture-o"></i> Galeri</a></li> -->
+            <!-- <li><a href="<?php echo base_url().'Admin/Kategori'?>"><i class="fa fa-list"></i> Kategori Tulisan</a></li> -->
             <li><a href="<?php echo base_url().'Admin/Tulisan'?>"><i class="fa fa-list"></i> List Tulisan</a></li>
           </ul>
         </li>

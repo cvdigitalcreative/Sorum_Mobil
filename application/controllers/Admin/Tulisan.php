@@ -57,8 +57,8 @@ class Tulisan extends CI_Controller{
 	                        $config['create_thumb']= FALSE;
 	                        $config['maintain_ratio']= FALSE;
 	                        $config['quality']= '100%';
-	                        $config['width']= 1110;
-	                        $config['height']= 530;
+	                        $config['width']= 720;
+	                        $config['height']= 930;
 	                        $config['new_image']= './assets/admin/images/'.$gbr['file_name'];
 	                        $this->load->library('image_lib', $config);
 	                        $this->image_lib->resize();
@@ -118,8 +118,8 @@ class Tulisan extends CI_Controller{
 	                        $config['create_thumb']= FALSE;
 	                        $config['maintain_ratio']= FALSE;
 	                        $config['quality']= '100%';
-	                        $config['width']= 1110;
-	                        $config['height']= 530;
+	                        $config['width']= 720;
+	                        $config['height']= 932;
 	                        $config['new_image']= './assets/admin/images/'.$gbr['file_name'];
 	                        $this->load->library('image_lib', $config);
 	                        $this->image_lib->resize();
