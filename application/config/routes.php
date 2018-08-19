@@ -54,7 +54,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // $route['gentaralam']='Mice';
 // $route['neoPCevent']='Club/neoPCevent';
 // $route['wingsatterace']='Club/wingsterrace';
-$route['private']='Administrator';
 $route['default_controller'] = 'Home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

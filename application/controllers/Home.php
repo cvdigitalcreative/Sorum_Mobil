@@ -35,7 +35,7 @@ class Home extends CI_Controller {
 		$kode=$q['tulisan_album_id'];
 		$title=$q['tulisan_judul'];
 		$x['deskripsi']=$this->m_tulisan->get_berita_by_slug($slug);
-		$x['gambar']=$this->m_album->get_album_by_kode_withlimit($kode,1);
+		$x['gambar']=$this->m_galeri->get_galeri_by_album_id($kode);
 		$x['items'] = $this->m_tulisan->get_tulisan_by_kategori_withlimit(27,7);
 		$x['Price'] = $this->m_tulisan->get_tulisan_by_kategori_withlimit(28,4);
 		$z['footer'] = $this->m_tulisan->get_tulisan_by_kategori_withlimit(30,1);

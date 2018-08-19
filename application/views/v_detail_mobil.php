@@ -7,11 +7,17 @@
 				<div class="col-md-8 col-lg-9 p-b-80">
 					<div class="p-r-50 p-r-0-lg">
 						<div class="p-b-40">
+							<div class="slideshow-container">
 							<?php foreach ($gambar->result() as $row): ?>
-							<div class="blog-detail-img wrap-pic-w">
-								<img src="<?php echo base_url().'assets/admin/images/'.$row->album_cover;?>" alt="IMG-BLOG">
-							</div>
+							<div class="blog-detail-img wrap-pic-w mySlides">
+								<img src="<?php echo base_url().'assets/admin/images/'.$row->galeri_gambar;?>" alt="IMG-BLOG">
+							</div>	
 							<?php endforeach;?>
+							
+							
+							<a class="prev" onclick="plusSlides(-1)" style="color: #ea7a17;">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)" style="color: #ea7a17;">&#10095;</a>
+							</div>
 							<?php foreach ($deskripsi->result() as $row): ?>
 							<div class="blog-detail-txt p-t-33">
 								<h4 class="p-b-11 m-text24">

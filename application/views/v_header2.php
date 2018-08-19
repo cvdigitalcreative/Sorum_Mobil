@@ -34,6 +34,8 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/util.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/main.css">
 <!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/sliderP.css">
+<!--===============================================================================================-->
 </head>
 
 <body class="animsition">
